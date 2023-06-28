@@ -1,0 +1,332 @@
+commit 640183f63d25c49655b586fd8751bbf2800a7a34
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 14:24:21 2023 -0500
+
+    Ading new elements
+
+commit 0a96e6079a937e924d97918aaae57de46f04eb9d
+Merge: 20254eb 75e4f18
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 14:23:28 2023 -0500
+
+    Ading new elements
+
+commit 20254eb4dfafe7669818c5113588f0721a23f6ea
+Merge: 8d90164 f353d34
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 14:14:07 2023 -0500
+
+    Ading new elements
+
+commit 75e4f18fc42800fb666176ea82a8536d2392375d
+Merge: 8d90164 f353d34
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 14:14:07 2023 -0500
+
+    changes deleted elements
+
+commit 8d9016469f2dd1ef7894a9f318b7f702eeb1302e
+Merge: 20f0a05 1cc7361
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 14:08:02 2023 -0500
+
+    changes in html branch
+
+commit f353d34b16947fe76c613941133ad8db9fd7cc1a
+Merge: 20f0a05 1cc7361
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 14:08:02 2023 -0500
+
+    Update
+
+commit 20f0a05ded8477b3ecb24a106ed3de75ad08bf5a
+Merge: 4c0c09c 422ec95
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 14:07:35 2023 -0500
+
+    Update
+
+commit 4c0c09ca497de395f1445c4513e98ec6d2e9b643
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 13:35:03 2023 -0500
+
+    actualizando prueba
+
+commit 1cc7361e0b3bac8e07c13d5e817e5a8a2a9a62fd
+Merge: 40038be 02d8c57
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 13:50:45 2023 -0500
+
+    Resolving conflicts new elements wit date
+
+commit 40038bebc9575e8ed6a5d410ee2f406278a2018a
+Merge: f0291eb 422ec95
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 13:38:39 2023 -0500
+
+    adding date
+
+commit 02d8c579499cf966a1849bc75ae07f08131904a0
+Merge: f0291eb 422ec95
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 13:38:39 2023 -0500
+
+    fusionando main/html
+
+commit 422ec95ab730493659b35cf2f1b20cacd598de9f
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 13:37:07 2023 -0500
+
+    html
+
+commit f0291eb832f500bd37cea8b523f23c3f208fd90b
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 13:35:03 2023 -0500
+
+    new commit
+
+commit 500f88ad0ef71ccfb01902857695f70f46f66da5
+Merge: ec378f0 38116d4
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 13:32:48 2023 -0500
+
+    prueba elementos2
+
+commit ec378f034e0041a8fae1edb1d90ec09b5e868724
+Merge: c8a8db3 41c836f
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 13:20:47 2023 -0500
+
+    -
+
+commit 38116d40a4a616c19dbe23e0d1bf5a1e70e81cc4
+Merge: c8a8db3 41c836f
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 13:20:47 2023 -0500
+
+    -
+
+commit c8a8db3718ac70d39afe365e2a5683948240556c
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 13:02:25 2023 -0500
+
+    Adding new elements
+
+commit 41c836fb7c12199e9f3c4770e736b4205a0c548a
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 13:02:25 2023 -0500
+
+    Adding new elements
+
+commit 9e67d937c024f442704e5339fa8bd000b303bf5f
+Merge: 82095f8 34a5c69
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 12:18:13 2023 -0500
+
+    adding new prueba
+
+commit 34a5c695223553c41cbb6f0fb63603dd1f089f19
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 12:16:33 2023 -0500
+
+    update html branch
+
+commit 82095f82fae9317dfccf9bed4a632ce100ecffa1
+Merge: e5af0e3 e9f1c34
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 12:14:16 2023 -0500
+
+    saving changes and resolving conflicts merge main/html in the files prueba.html
+
+commit e9f1c340ad837c7271cc613f16e03052187c606e
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 12:08:40 2023 -0500
+
+    adding index.js al index.html
+
+commit e5af0e3153a48bfe35166dfe611af26cdeb1fb0b
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 12:06:13 2023 -0500
+
+    adding archivo html con estilo css
+
+commit 1e435a3ac82d7e660953667cc9b7602ee3a73648
+Merge: 0a9e66f af35422
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 12:02:21 2023 -0500
+
+    Merge branch 'html'
+
+commit af35422ccc506c8215bc9072cf35b9fe3778c57d
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 12:01:50 2023 -0500
+
+    html
+
+commit 0a9e66f6ad64195243abcc63714a995cb7309589
+Merge: 5292658 e4eba8b
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 11:59:56 2023 -0500
+
+    Merge branch 'html'
+
+commit e4eba8b17741145d63ebe8df7ba13acb2b727512
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 11:58:37 2023 -0500
+
+    enlazando html
+
+commit 5292658b78a4e99ebe189bc06de50d62d32c5451
+Merge: 1626e02 479282a
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 11:48:17 2023 -0500
+
+    Resolviendo conflicto merge main/html en el documento index.html
+
+commit 479282a1cb954cb370d09f729b50d644063ed4e1
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 11:42:02 2023 -0500
+
+    Adding index.js to index.html
+
+commit 1626e02f62e191cfac6da17ed035c9ad6b2cbc79
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 24 11:39:24 2023 -0500
+
+    adding style.css to index.html
+
+commit 8d3c4ea7c8b82279a2d644f8e3d5936594ae5b31
+Merge: 2bdc137 aa477d4
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Fri Jun 23 19:55:43 2023 -0500
+
+    Merge branch 'html'
+
+commit aa477d457deb5a17e946a20622d4bdaf2f8ec1fb
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Fri Jun 23 19:55:26 2023 -0500
+
+    .
+
+commit 2bdc137cedca344e4a4b239bd1faa65624a70f12
+Merge: 1895473 c98a8a3
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Fri Jun 23 19:53:19 2023 -0500
+
+    Merge branch 'css'
+
+commit 189547335a171726da5a9810ea30ebad5da6320e
+Merge: bcf8003 95fb8f1
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Fri Jun 23 19:52:49 2023 -0500
+
+    Merge branch 'html'
+
+commit 95fb8f15113e6a25e06c3c8df583126e4b13970e
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Fri Jun 23 19:51:55 2023 -0500
+
+    change in html
+
+commit c98a8a368dff7578cc5183d1691c6502afa7a76b
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Fri Jun 23 19:48:33 2023 -0500
+
+    new branch
+
+commit bcf8003e256e7c8f505839ecd3db910b12011586
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Fri Jun 23 19:28:08 2023 -0500
+
+    new change
+
+commit d95036e37666fe166a7a5a8ac0be97865ae792ff
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Wed Jun 21 18:56:17 2023 -0500
+
+    New change
+
+commit 1a9a353495b185ad1eaea11c6141bb9f61bac33b
+Merge: 56ad9e1 c664e56
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Mon Jun 19 20:20:53 2023 -0500
+
+    Merge branch 'js'
+
+commit c664e56492fb33b5ab919b106174122194634359
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Mon Jun 19 20:10:17 2023 -0500
+
+    Learning js
+
+commit 56ad9e1532f875467356d028084a42f3bb7243a2
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Mon Jun 19 20:03:18 2023 -0500
+
+    Adding new style
+
+commit 194392ae78ae53e647bf3261e7fa2b25bcebf65a
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Mon Jun 19 20:01:46 2023 -0500
+
+    Adding new file
+
+commit e31493731f12aa2a3fb7d4d0ded5eb1556ec36a9
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Mon Jun 19 19:57:03 2023 -0500
+
+    new words
+
+commit 60db2540fa05efde96defb7d59b3cae301129964
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Mon Jun 19 19:56:34 2023 -0500
+
+    hi
+
+commit be03d80d190b910ec094042752323b9a9adb8c16
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Mon Jun 19 15:47:27 2023 -0500
+
+    Adding mau.exe
+
+commit b0e1bb044d4bc4b22285e7a4530ec286054a0650
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Mon Jun 19 15:22:23 2023 -0500
+
+    Ignoring files .exe
+
+commit 95b92a73275727a6655f4462b19a027e05d94bb7
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 17 16:49:43 2023 -0500
+
+    adding new words
+
+commit 32523a1c4e2902f157729184fee55cb1a35d7102
+Author: MauricioMolina12 <127805142+MauricioMolina12@users.noreply.github.com>
+Date:   Sat Jun 17 16:42:07 2023 -0500
+
+    Creating license of repositoy
+
+commit 4f54fed8aaa78acd92a45849de43ddba2064b8c6
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Sat Jun 17 14:57:20 2023 -0500
+
+    Agregando contenido 17
+
+commit 85c8d601ef689b8d791175622024b0f4667cfa9b
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Fri Jun 16 12:22:45 2023 -0500
+
+    Adding more content
+
+commit 2c2266c1ff37a15695ccd6df7f06f2e03d8d8c5b
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Fri Jun 16 12:05:13 2023 -0500
+
+    Adding digital content to the readme
+
+commit 0e3833445f60411099546975b54ea1d679e51f24
+Author: Mauricio Molina <maupena9@gmail.com>
+Date:   Fri Jun 16 11:52:37 2023 -0500
+
+    Primer commit
