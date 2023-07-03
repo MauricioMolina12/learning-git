@@ -19,4 +19,4 @@ Este commit es para oficializar nuestra versión **1.0.0**
 
 Este commit es para oficializar nuestra versión **1.0.1**
 
-cambio de prueba
+cambio de prueba2
