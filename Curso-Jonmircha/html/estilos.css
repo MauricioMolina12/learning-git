@@ -1,0 +1,114 @@
+html{
+    scroll-behavior: smooth;
+}
+img, video{
+    max-width: 100; 
+    height: auto;
+    border-radius: 10px;
+}
+
+video{
+    border-radius: 10px;
+}
+
+a{
+    padding-left: 10px;
+    color: white;
+}
+
+h2, h3,h1{
+    color: white;
+}
+
+h1{
+    user-select: none;
+}
+
+dialog{
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+iframe{
+    width: 30%;
+    height: 250px;
+    border-color: white;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('FilesToExercise/images/files/FihYt0oXoAAZsHS.jfif');
+    background-size: cover;
+    opacity: 0.9; /* Ajusta la opacidad a tu preferencia (0.0 - 1.0) */
+  }
+
+  #efo{
+    background-color: white;
+    border-radius: 10px;
+    width: 20%;
+  }
+
+  #ef{
+    color: black;
+    padding-left: 10px;
+    padding-top: 5px;
+    align-items: center;
+  }
+
+  #label-email, #label-number, #label-tel, #label-password, #label-search{
+    color: white;
+    border-radius: 10px;
+  }
+
+  label{
+    color: black;
+  }
+
+  .form{
+    width: 300px;
+    height: 200px;
+    background-image: url('FilesToExercise/images/files/thumb-1920-954241.jpg');
+    border-radius: 5px;
+    padding-left:140px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+
+  }
+
+  #log{
+    border-radius: 190px;
+    color: wheat;
+    background-position: center;
+  }
+  #submit{
+    align-items: center;
+  }
+
+  #tw{
+  margin: auto;
+  }
+
+  #rad{
+    background-color: chocolate;
+    width: 30%;
+    height: 80px;
+    padding: 10px;
+  }
+
+  #tir{
+    background-color: chocolate;
+    width: 10%;
+    height: auto;
+    padding-left: 35px;
+    margin-left: 2px;
+  }
+
+ 
