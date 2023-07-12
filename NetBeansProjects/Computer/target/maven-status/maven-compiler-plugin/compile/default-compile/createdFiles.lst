@@ -1,0 +1,16 @@
+Backend\Input\Mouse.class
+Backend\Component.class
+Backend\Input\Keyboard.class
+Backend\Input\GraphicTablet.class
+Backend\Output\TouchScreen.class
+Backend\Peripheral.class
+Backend\DeviceInput.class
+Backend\Computer.class
+Backend\Output\LaserPrinter.class
+Backend\DeviceOutput.class
+Backend\Output\Screen.class
+Backend\Builder\ComputerBuilder.class
+Backend\Input\TouchScreen.class
+Backend\CentralUnit.class
+Backend\Output\PrinterInkjet.class
+Principal\Main.class

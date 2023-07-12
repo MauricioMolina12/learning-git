@@ -1,0 +1,7 @@
+factory\clases\ConexionOracle.class
+factory\IConexion.class
+factory\clases\ConexionMySQL.class
+factory\clases\ConexionPostgre.class
+factory\clases\ConexionVacia.class
+factory\App.class
+factory\Factory.class
