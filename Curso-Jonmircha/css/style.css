@@ -1,0 +1,211 @@
+/* a, b, c, d, e, f, g, h, i, j, k, l, m,
+ n, ñ, o, p, q, r, s, t, u, v, w, x, y, z.*/
+
+.syllabus a{
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+
+}
+
+
+.atributtes-selectors a[href]{
+  color: #EEE0CB;
+  text-decoration: none;
+
+}
+
+.atributtes-selectors a[target="blank"]{
+  font-weight: 600;
+}
+
+/*
+.atributtes-selectors a[href*="jonmircha"]{
+  font-size: 22px;
+}
+
+.atributtes-selectors a[href^="https"]{
+  font-size: 22px;
+}
+
+.atributtes-selectors a[href$="blog"]{
+  font-size: 22px;
+}
+
+
+.atributtes-selectors a[class~="cursos"]{
+  font-size: 24px;
+  color: aqua;
+}
+
+
+
+.atributtes-selectors a[class|="menu"]{
+  font-size: 24px;
+  color: aqua;
+}
+*/
+
+.atributtes-selectors ul li{
+  display: inline;
+  margin-right: 10px;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+
+.brothers-general ~ li{
+  background-color: chocolate;
+}
+
+.brothers-adjacent + li{
+  background-color: chocolate;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bn{
+  background-color: #839788;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bn > a{
+  color: #EEE0CB;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+code{
+  color: skyblue;
+}
+
+.hijos-directos > li {
+  background-color: brown;
+}
+
+
+.divider{
+  width: 250px;
+  border-bottom: 4px solid white; 
+
+}
+
+.divider-dos{
+  border-bottom: 4px solid #839788; 
+}
+
+footer{
+  background-color: #000000;
+  padding: 20px;
+  width: 100%;
+}
+
+html{
+  scroll-behavior: smooth;
+  background-color: #EEE0CB;
+}
+
+
+h3{
+  font-size: 18px;
+}
+
+h2{
+  color: black; 
+  font-weight: 800;
+  font-family: Arial, sans-serif;
+}
+
+h1{
+  color: #EEE0CB;
+  font-weight: 800;
+  margin: 0;
+}
+header{
+  background-color: #000000;
+  color: #839788;
+  padding: 20px;
+  width: 100%;
+}
+
+
+main{
+  margin: 10px;
+}
+
+pre{
+  background-color: rgb(5, 1, 16);
+}
+
+.recuadro{
+  width: 60%;
+  background-color: #839788;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  
+}
+
+.syllabus{
+  border: 10px;
+  border-color: #000000;
+  background-color: #839788;
+  width: 30%;
+  border-radius: 5px;
+  background-position: center;
+  padding-bottom: 10px;
+ 
+}
+
+.style-footer p{
+  color: #EEE0CB;
+  align-items: center;
+  text-align: center;
+
+}
+
+.style-footer a{
+  color: #839788;
+}
+
+.style-summary{
+  font-weight: 500;
+  font-size: 19px;
+
+}
+
+#titulo-temario{
+  color: #EEE0CB;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+
+ul{
+    color: white;
+}
+
+.text-color{
+  color: #EEE0CB;
+}
+
+
+
+
+
+
+
+
+
+
+
+  

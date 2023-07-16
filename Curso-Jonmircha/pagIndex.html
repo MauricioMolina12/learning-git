@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course of CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://images.vexels.com/media/users/3/224155/isolated/preview/f4bbe191bcc833b27d7fa241220c470e-libro-en-logo-de-pantalla.png">
+    
+</head>
+<body>
+    <header class="start">
+        <h1>Learning CSS</h1> 
+        <h4 style="color: rgb(255, 255, 255); font-weight: 900;" ><i>CSS(Cascading Style Sheets)</i>Hojas de estilo en cascada</h4>
+        <p>CSS is a style sheet language used to define the visual appearance and formatting of an HTML (or XML) document. It provides a set of rules that allow you to apply styles and presentation to specific elements of a web page.</p>
+    
+    </header>
+    
+        
+    <main>
+        <article>
+            <div class="syllabus">
+                <h2 id="titulo-temario">course syllabus</h2>
+                <hr class="divider">
+                    <ul>
+                        <li><a href="pagIndex.html#basic-selectors">basic selectors</a></li>
+                        <li><a href="pagIndex.html#advanced-selectors">advanced selectors</a></li>
+                        <li><a href="pagIndex.html#atributtes-selectors">atributtes-selectors</a></li>
+                    </ul>
+            </div>
+        </article>
+
+            <hr class="divider-dos">
+            
+        <article id="basic-selectors" class="basic-selectors recuadro">
+            <h2 class="text-color">Basic Selectors</h2>
+            <p>Basic selectors in CSS are those that allow you to select an element or a group of elements on a web page. 
+                    The most commonly used selectors are:</p>
+
+            <ul>
+                
+                <li>The element selector, which selects all elements of a specific type. For example, the selector p selects all paragraphs on the page.</li>
+                <li>The class selector, which selects all elements that have a specific class. For example, the selector .myclass selects all elements with the class myclass.</li>
+                <li>The ID selector, which selects the element with a specific ID. For example, the selector #myid selects the element with the ID myid.</li>
+            </ul>
+
+            <p>These are the basic selectors, but there are many other more advanced selectors that allow for more precise element selection.</p>
+            
+        </article>
+        
+                <br><br>
+                <hr class="divider-dos">
+                
+            <article id="advanced-selectors" class="recuadro">
+                <h2 class="text-color">Advanced Selectors</h2>
+                <h3>Sons's selectors</h3>
+                <ul>
+    
+                    <details>
+                        <summary class="style-summary">Direct sons selectors</summary>
+
+                        <article>
+                            <p>Child Selectors are those that select elements that are direct children of the current element. For example, if we have the following code:</p>
+                        
+                            <pre>
+                                <code>
+                                    &lt;div&gt;
+                                                &lt;p&gt;This is a paragraph &lt;/p&gt;
+                                                &lt;p&gt;This is another paragraph &lt;/p&gt;
+                                      &lt;/div&gt;
+                                </code>
+                            </pre>
+
+                            <p>And we want to select the first paragraph, we can use the following selector:</p>
+                        
+                            <pre>
+                                <code>
+                                    div > p:first-child
+                                </code>
+                            </pre>
+
+                            <p>This will select the first paragraph inside the `div` element.</p>
+                        
+                            <p>Example: <br>
+                                <ul class="hijos-directos">
+                                    <li><b>Element 1</b></li>
+                                    <li><b>Element 2</b></li>
+                                    <li><b>Element 3</b></li>
+                                    <li><b>Element 4</b></li>
+                                </ul>
+                            </p>
+                        </article>
+                    </details>
+
+                    
+                    <details>
+                        <summary class="style-summary">Descendant sons selector</summary>
+                        
+                        <article>
+
+                            <p>Child Descendant Selectors are those that select elements that are descendants of the current element. For example, if we have the following code:</p>
+                       
+                            <pre>
+                                <code>
+                                    &lt;div&gt;
+                                                &lt;p&gt;This is a paragraph &lt;/p&gt;
+                                                &lt;p&gt;This is another paragraph &lt;/p&gt;
+                                      &lt;/div&gt;
+                                </code>
+                            </pre>
+
+                            <p>And we want to select all paragraphs, we can use the following selector:</p>
+                        
+                            <pre>
+                                <code>
+                                    div > p
+                                </code>
+                            </pre>
+
+                            <p>This will select all paragraphs inside the `div` element.</p>
+                        </article>
+                    </details>
+                </ul>
+
+
+                <hr class="divider">
+
+                <h3>Sibling and Adjacent Selector</h3>
+
+                <ul>
+                    <details>
+                        <summary class="style-summary">General sibling selector</summary>
+
+                        <article>
+                            <ul>
+                                <li class="brothers-general"><b>Element one</b></li>
+                                <li><b>Element two</b></li>
+                                <li><b>Element three</b></li>
+                                <li><b>Element four</b></li>
+                            </ul>
+                        </article>
+                    </details>
+                    
+                    <details>
+                        <summary class="style-summary">Adjacent Sibling Selector</summary>
+
+                        <article>
+                            <ul>
+                                <li><b>Element one</b></li>
+                                <li class="brothers-adjacent"><b>Element two</b></li>
+                                <li><b>Element three</b></li>
+                                <li><b>Element four</b></li>
+                            </ul>
+                        </article>
+                    </details>
+                </ul>
+
+                
+            </article>
+            
+            <br><br><br>
+            <hr class="divider-dos">
+            
+            <article class="recuadro" id="atributtes-selectors">
+
+                <h2 class="text-color">Atributtes Selectors</h2>
+                <nav class="atributtes-selectors">
+                    <ul>
+                        <li><a href="http://jonmircha.com/" target="blank">Inicio</a></li>
+                        <li><a class="menu-item cursos button" href="http://jonmircha.com/cursos" target="blank">Cursos</a></li>
+                        <li><a href="https://jonmircha.com/blog" target="blank">Blog</a></li>
+                        <li><a href="https://jonmircha.com/mentoria" target="blank">Mentoría</a></li>
+                        <li><a href="https://jonmircha.com/hola" target="blank">Hola</a></li>
+                        <li><a href="PagIndex.html#start">Back to Start</a></li>
+                    </ul>
+                </nav>
+                
+
+            </article>
+
+            
+    </main>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+    
+    <button class="bn"><a href="pagIndex.html#start">Inicio</a></button>
+
+    <footer class="style-footer">
+        <p>Copyright 2023 Company Name. All rights reserved.</p>
+        <p>Contact us at <a href="mailto:info@companyname.com">info@companyname.com</a> or call us at 1-800-555-1212.</p>
+    </footer>
+</body>
+</html>
