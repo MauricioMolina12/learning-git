@@ -4,20 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course of CSS</title>
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="https://images.vexels.com/media/users/3/224155/isolated/preview/f4bbe191bcc833b27d7fa241220c470e-libro-en-logo-de-pantalla.png">
-    
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png">
+    <meta name="theme-color" content="#FF0000">
 </head>
 <body>
-    <header class="start">
-        <h1>Learning CSS</h1> 
-        <h4 style="color: rgb(255, 255, 255); font-weight: 900;" ><i>CSS(Cascading Style Sheets)</i>Hojas de estilo en cascada</h4>
-        <p>CSS is a style sheet language used to define the visual appearance and formatting of an HTML (or XML) document. It provides a set of rules that allow you to apply styles and presentation to specific elements of a web page.</p>
-    
+
+    <header class="start" id="inicio">
+        
+        <a class="link-inicio" href="pagIndex.html#inicio">
+            <article class="encabezado">
+                <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="CSS">
+                <h1>Learning CSS</h1> 
+            </article>
+            
+
+            
+            <nav  class="navegators">
+            
+
+                <ul class="style-navegators">
+                    
+                    <li><a href="pagIndex.html#basic-selectors">Selectors</a></li>
+                    <li><a href="pagIndex.html#css-algorithm">Algorithm</a></li>
+                    <li><a href="ArquitectureResponsive.html">Arquitecture and Responsive</a></li>
+                    <li><a href="FlexGrid.html">Flex and Grid</a></li>
+                </ul>
+            </nav>
+        </a>
+        
+        
+        
     </header>
     
         
-    <main>
+    <main>  
+        <br><br>
+        <article class="definition recuadro">
+            <h4 style="color: rgb(255, 255, 255); font-weight: 900;" ><i>CSS(Cascading Style Sheets)</i>Hojas de estilo en cascada</h4>
+            <p>CSS is a style sheet language used to define the visual appearance and formatting of an HTML (or XML) document. It provides a set of rules that allow you to apply styles and presentation to specific elements of a web page.</p>
+        </article>
+
         <article>
             <div class="syllabus">
                 <h2 id="titulo-temario">course syllabus</h2>
@@ -26,11 +55,18 @@
                         <li><a href="pagIndex.html#basic-selectors">basic selectors</a></li>
                         <li><a href="pagIndex.html#advanced-selectors">advanced selectors</a></li>
                         <li><a href="pagIndex.html#atributtes-selectors">atributtes-selectors</a></li>
+                        <li><a href="pagIndex.html#Universal-selector">universal-selector</a></li>
+                        <li><a href="pagIndex.html#Pseudoclasses">pseudoclasses</a></li>
+                        <li><a href="pagIndex.html#pseudoelements">pseudoelements</a></li>
+                        <li><a href="pagIndex.html#Selector-Grouping">selector grouping</a></li>
+                        <li><a href="pagIndex.html#css-algorithm">css algorithm</a></li>
+                        <li><a href="BoxModel.html">box model</a></li>
                     </ul>
             </div>
         </article>
 
-            <hr class="divider-dos">
+        <hr class="divider-dos">
+
             
         <article id="basic-selectors" class="basic-selectors recuadro">
             <h2 class="text-color">Basic Selectors</h2>
@@ -49,8 +85,7 @@
         </article>
         
                 <br><br>
-                <hr class="divider-dos">
-                
+
             <article id="advanced-selectors" class="recuadro">
                 <h2 class="text-color">Advanced Selectors</h2>
                 <h3>Sons's selectors</h3>
@@ -113,7 +148,9 @@
                         
                             <pre>
                                 <code>
-                                    div > p
+                                    div  p {
+                                        color: white;
+                                    }
                                 </code>
                             </pre>
 
@@ -159,7 +196,6 @@
             </article>
             
             <br><br><br>
-            <hr class="divider-dos">
             
             <article class="recuadro" id="atributtes-selectors">
 
@@ -171,19 +207,333 @@
                         <li><a href="https://jonmircha.com/blog" target="blank">Blog</a></li>
                         <li><a href="https://jonmircha.com/mentoria" target="blank">Mentoría</a></li>
                         <li><a href="https://jonmircha.com/hola" target="blank">Hola</a></li>
-                        <li><a href="PagIndex.html#start">Back to Start</a></li>
+                        <li><a href="PagIndex.html#inicio">Back to Start</a></li>
                     </ul>
                 </nav>
                 
 
             </article>
 
+            <br><br><br>
+
+            <article class="recuadro" id="Universal-selector">
+                <h2 class="text-color">Universal Selector</h2>
+                <p>The universal selector is *. It matches every element in the document.</p>
+
+                <pre>
+                    <code class="code">
+                        *{
+                            font-family: sans-serif;
+                            font-size: 30px;
+                            color: aqua;
+                          }
+                    </code>
+                </pre>
+            </article>
+
+            <br>
+            <hr class="divider-dos">
+            <br>
+
+           <article class="recuadro" id="Pseudoclasses">
+
+            <h2 class="text-color">Pseudoclasses</h2>
+            <p>Pseudo-classes are special keywords that you can use in CSS to style elements 
+                based on their state or position. For example, you can use the :hover 
+                pseudo-class to style an element when the user hovers over it, 
+                or the :active pseudo-class to style an element when the user clicks on it.</p>
             
-    </main>
+            <details>
+                <summary>Example</summary>
+                <br><br>
+                <form class="form-pseudoclasses">
+                    <input type="text" name="name" placeholder="type your name" required ><br><br>
+                    <input type="email" name="email" placeholder="type your email" required><br><br>
+                    <input type="submit">
+                </form>
+                <br><br>
+
+                <nav class="elements atributtes-selectors">
+                    <h4 id="sf">Songs favorites</h4>
+                    <ul>
+                        <li><a target="blank" href="https://www.youtube.com/watch?v=TfO4zKJ7QGM&list=RDTfO4zKJ7QGM&start_radio=1">Lo logré</a></li>
+                        <li><a target="blank" href="https://www.youtube.com/watch?v=MkO9g3ywnG4&list=RDTfO4zKJ7QGM&index=2">Lala</a></li>
+                        <li><a target="blank" href="https://www.youtube.com/watch?v=gKFziZB-a_c&list=RDTfO4zKJ7QGM&index=3">Hugo</a></li>
+                        <li><a target="blank" href="https://www.youtube.com/watch?v=gkLxJ87fgfI&list=RDTfO4zKJ7QGM&index=4">Niña bonita</a></li>
+                    </ul>    
+                </nav>
+
+                <br><br>
+
+                <nav class="prueba">
+                        <a href="#element1">Element 1</a>
+                        <a href="#element2">Element 2</a>
+                        <a href="#element3">Element 3</a>
+                        <a href="#element4">Element 4</a>
+                </nav>
+            </details>
+           
+
+            <details>
+                <summary>Pseudoclasses by position and type</summary>
+                <ol class="list-pseudoclass">
+                    <li>Element one</li>
+                    <li>Element two</li>
+                    <li>Element three</li>
+                    <li>Element four</li>
+                    <li>Element five</li>
+                    <li>Element six</li>
+                    <li>Element seven</li>
+                    <li>Element eigth</li>
+                    <li>Element nine</li>
+                    <li>Element ten</li>
+                </ol>
+
+                <article class="article-pseudoclass">
+                    <header>Header</header>
+                    <p>Parrafo</p>
+                    <div>Div</div>
+                    <p>Parrafo</p>
+                    <section>Sección</section>
+                    <p>Parrafo</p>
+                    <div>Div</div>
+                    <p>Parrafo</p>
+                    <footer>Footer</footer>
+               </article>
+
+               <article class="pse">
+                <section class="unorder">
+                    <ul>
+                        <li><a href="#sectionone" target="blank">Element one</a></li>
+                        <li><a href="#section" target="blank">Element two</a></li>
+                        <li><a href="#section" target="blank">Element three</a></li>
+                        <li><a href="#section">Element four</a></li>
+                        <li><a href="#section">Element five</a></li>
+                    </ul>
+                </section>
+                
+                <section class="order">
+                    <ol>
+                        <li><a href="#sectionone">One</a></li>
+                        <li><a href="#sectionone">Two</a></li>
+                        <li><a href="#sectionone">Three</a></li>
+                        <li><a href="#sectionone">Four</a></li>
+                        <li><a href="#sectionone">Five</a></li>
+                    </ol>
+
+                </section>
+                </article>
+
+            </details>
+           </article>
+
+           <br><br>
+
+           <article class="pseudoelements recuadro" id="pseudoelements">
+                <h2 class="text-color">pseudoelements</h2>
+                <p>Pseudo-elements are elements that are not actually present in the document 
+                    tree, but are added by the browser for styling purposes. They are used to
+                    create special effects, such as drop shadows, borders, and rounded corners.</p>
+                
+                <details class="ba">
+                    <summary>Before and after</summary>
+                    <p>Example</p>
+                    <p class="content">
+                        <i>Bandai Myth Cloth Ex</i><span class="saga-geminis">Saga de Géminis</span>
+                            <span class="saga-precio">500</span><br><br><br>
+                        <button class="b"><a href="https://www.google.com/" target="_blank">Google</a></button>
+                    </p>
+                </details>
+
+                <details class="fl">
+                    <summary>firts letters</summary>
+                    <p class="p-pseudoelements">The first letter in CSS is C. This is because CSS is an acronym for Cascading 
+                        Style Sheets. Cascading Style Sheets are a style sheet language used to describe the presentation 
+                        of a document written in a markup language such as HTML. CSS is designed to enable the separation 
+                        of presentation and content, allowing web designers to create documents whose presentation is 
+                        independent of the underlying markup.</p>
+
+                        
+                    <table class="table">
+                        <thead>
+                            <tr class="especial">
+                                <th colspan="3">Datos usuarios - información</th>
+                            </tr>
+                            <tr id="table-col">
+                                <th>Nombre</th>
+                                <th>Ciudad</th>
+                                <th>CC</th>
+                            </tr>
+                        </thead>
+        
+                        <tbody>
+            
+                            <tr>
+                                <td>Mauricio</td>
+                                <td>Sabanalarga</td>
+                                <td>1043584533</td>
+                            </tr>
+            
+                            <tr>
+                                <td>Samuel</td>
+                                <td>Sabanalarga</td>
+                                <td>8638475</td>
+                            </tr>
+            
+                            <tr>
+                                <td>Samir</td>
+                                <td>Barranquilla</td>
+                                <td>1043015667</td>
+                            </tr>
+                        </tbody>
+        
+                        <tfoot class="especial">
+                            <tr>
+                                <th colspan="3"><small>INFORMACIÓN EN PARTE INFERIOR</small></th>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <form action="">
+                        <label for="name">Name</label>
+                        <input class="input-pseudoelements" id="name" type="text" name="name" 
+                        placeholder="Enter your name">
+                    </form>
+    
+                    <form>
+                        <label for="fileUpload">Upload file</label>
+                        <input type="file" id="fileUpload" />
+                    </form>
+    
+                      <ul class="list-mar">
+                        <li>Element 1</li>
+                        <li>Element 2</li>
+                        <li>Element 3</li>
+                        <li>Element 4</li>
+                        <li>Element 5</li>
+                      </ul>
+                
+                </details>
+                
+            </article>
+
+            <br><br>
+
+            <article id="Selector-Grouping" class="recuadro">
+                <h2 class="text-color">Selector Grouping</h2>
+
+
+                <form class="form-selectors-agrouping">
+                    <label for="Name">Name</label>
+                    <input class="form" id="Name" type="text" name="name" placeholder="type your name">
+                    <label for="Email">Email</label>
+                    <input class="form" id="Email" type="email" name="email" placeholder="type your email">
+                    <label for="description">Description</label><br>
+                    <textarea id="description" name="Description" placeholder="type your comments" cols="30" rows="10"></textarea>
+                    <input type="submit">
+                </form>
+            </article>
+            <br><br>
+            <hr class="divider-dos">
+            <article id="css-algorithm" class="algorithm recuadro">
+
+                <h2 class="text-color">css algorithm</h2>
+
+                <details class="cascada">
+                    <summary>Cascada</summary>
+                    <p>Cascada is a CSS property that specifies the order in which CSS rules are applied to an element. It can be used to control the stacking order of elements, and to ensure that certain rules are applied before others. The cascading order is determined by the following factors:
+
+                        <ul>
+                            <li>The order in which the rules are written in the CSS file.</li>
+                            <li>The specificity of the rules.</li>
+                            <li>The importance of the rules.</li>
+                        </ul>
+                        
+                        The specificity of a rule is determined by the number of selectors it contains. A rule with a single selector has a lower specificity than a rule with multiple selectors. The importance of a rule is determined by its position in the CSS file. Rules that are written later in the file have a higher importance than rules that are written earlier.
+                        
+                        The cascading order can be changed by using the `!important` declaration. This declaration overrides the normal cascading order and ensures that the rule is applied before all other rules.</p>
+                </details>
+
+                <details>
+                    <summary>Especificidad</summary>
+                    <p>
+                        In CSS (Cascading Style Sheets), specificity is a concept that determines which rules 
+                        will be applied to an element when there are multiple rules trying to style the same 
+                        element. When conflicts occur between rules, the browser uses specificity to decide 
+                        which one will take precedence.
+                        <br><br>
+                        Specificity is based on the combination of selectors used in a CSS rule. 
+                        Each selector has a specificity value calculated based on its type and number of
+                         components. Generally, we can establish the specificity weight of selectors as 
+                         follows (from lower to higher specificity):
+
+                         <ul>
+                            <li>Etiquetas y Pseudoelementos------------------------- 0,0,0,1</li>
+                            <li>Clases, Atributos y Pseudoclases--------------------       0,0,1,0</li>
+                            <li>Identificadores---------------------------------------------       0,1,0,0</li>
+                            <li>Estilos en línea--------------------------------------------       1,0,0,0</li>
+                            <li>!important-------------------------------------------------Rompe la especificidad</li>
+                         </ul>
+                    </p>
+                    
+                </details>
+
+                <details class="Inheritance">
+                    <summary>Inheritance</summary>
+                    
+                    <p>Inheritance in CSS is the ability to pass properties from one element to
+                         another. This can be used to create a consistent look 
+                         and feel across your website, and to save time by reusing styles.
+
+                        <br><br>
+                        To inherit a property, simply add the `inherit` 
+                        keyword to the property value. For example, 
+                        if you want to inherit the `font-size` property from the `body` element to the `h1` element, you would add the following code to your CSS:</p>
+
+                        <pre>
+                            <code>
+                                h1 {
+                                    font-size: inherit;
+                                  }
+                            </code>
+                        </pre>
+
+                        <p>This would cause the `h1` element to use the same font size as the `body` element.
+
+                            Inheritance can also be used to inherit the values of multiple properties at once. To do this, simply list the properties separated by commas, and add the `inherit` keyword to the end of the list. For example, the following code would cause the `h1` element to inherit the `font-size`, `font-family`, and `color` properties from the `body` element:</p>
+                    
+                        <pre>
+                            <code>
+                                h1 {
+                                    font-size: inherit;
+                                    font-family: inherit;
+                                    color: inherit;
+                                  }
+                            </code>
+                        </pre>
+
+                        <p>Example</p>
+
+                        <a href="https://www.culturagenial.com/es/solo-se-que-no-se-nada/"><blockquote>
+                            Solo sé que nada sé <br>
+                            <cite>Sócrates</cite>
+                        </blockquote></a>
+                </details>
+
+            </article>
+
+
+            <article class="models-box" #></article>
+           
+           <br><br>
+
+  </main>
 
     <br><br><br><br><br><br><br><br><br><br><br>
     
-    <button class="bn"><a href="pagIndex.html#start">Inicio</a></button>
+    <button class="bn">
+        <a href="pagIndex.html#inicio">Inicio</a>
+    </button>
 
     <footer class="style-footer">
         <p>Copyright 2023 Company Name. All rights reserved.</p>

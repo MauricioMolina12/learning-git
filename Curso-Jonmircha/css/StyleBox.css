@@ -2,15 +2,27 @@
  n, ñ, o, p, q, r, s, t, u, v, w, x, y, z.*/
 
 
-
  @keyframes palpitar {
   0%, 100% {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(1);
   }
 }
+
+@keyframes palpitar-adelante {
+  0% {
+    transform: translateZ(0);
+  }
+  50% {
+    transform: translateZ(50px) scale(1.2);
+  }
+  100% {
+    transform: translateZ(0);
+  }
+}
+
  /*@import url("styleTwo.css");*/
 
  /*-------------------A-------------------*/
@@ -160,6 +172,63 @@ body {
   text-decoration: none;
 }
 
+.box-elements img{
+  width: 40%;
+  height: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.box-elements summary{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.border-properties li::marker{
+    content: '- ';
+    font-size: 1.2em;
+}
+
+.border-properties{
+  background-color: #EEE0CB;
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.border-properties li{
+  color: #839788;
+}
+
+
+.border pre:only-of-type{
+  padding-top: 12px;
+  margin: 10px;
+}
+
+.border-example{
+  text-align: center;
+  color: white;
+  border: 5px solid white;
+  width: 50%;
+  margin: 0 auto;
+  /*
+  border-top-color: skyblue;
+  border-bottom-color: skyblue;
+  border-top-width: 30px;
+  border-right-width: 10px;
+  border-left-width: 5px;
+  border-bottom-width: thick;
+  border-top-style: double;
+  border-right-style: solid;
+  border-bottom-style: dashed;
+  border-left-style: dotted; */
+
+    border-width: 10px 2px 8px 100px;
+}
+
+
 /*-------------------C-------------------*/
 
 
@@ -171,10 +240,7 @@ code{
   color: #81ecec;
 }
 
-.content img{
-  width: 40%;
-  height: 40%;
-}
+
 
 /*-------------------D-------------------*/
 
@@ -204,13 +270,13 @@ details{
 
 .encabezado{
   display: flex;
+
 }
 
 /*
 .encabezado:hover{
-  animation: palpitar 1s ease infinite;
+  animation: palpitar 1s ease infinite,palpitar-adelante 1s ease infinite;
 }*/
-
 .especial{
   background-color: coral;
   color: #FFFFFF;
@@ -267,6 +333,13 @@ details{
 .form{
   border-radius: 4px;
 }
+
+.functioning p:nth-of-type(2){
+  font-size: 20px;
+  color: #EEE0CB;
+  font-weight: 800;
+}
+
 
 /*------------------G-------------------*/
 
@@ -350,12 +423,17 @@ input[type="file"]::file-selector-button:hover {
   text-decoration: none;
 }
 
-img [alt="boxmodel"]{
-    display: block;
-    margin: 0 auto;
-
+img[alt="boxmodel"]{
+  display: block;
+  margin: 0 auto;
+  width:45%; 
+  height: 90%;
 }
 
+img[alt="Style user agent"]{
+  display: block;
+  margin: 0 auto;
+}
 
 /*-------------------J-------------------*/
 
@@ -424,8 +502,8 @@ color: tomato;
 
 .link-inicio{
   text-decoration: none;
-  
 }
+
 
 
 /*-------------------M-------------------*/
@@ -435,6 +513,7 @@ color: tomato;
 main{
   margin-left: 20px;
 }
+
 
 
 
@@ -521,6 +600,11 @@ pre{
   background-color: #00b3ff;
 }
 
+p{
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: 300px;
+}
 
 /*-------------------Q-------------------*/
 
@@ -556,7 +640,6 @@ pre{
   color:black;
 }
 
-
 /*-------------------S-------------------*/
 
 .syllabus a{
@@ -575,12 +658,6 @@ pre{
   background-position: center;
   padding-bottom: 10px;
  
-}
-
-.syllabus li:hover{
-  font-size: 25px;
-  transition: 0.5s;
-  animation: palpitar 1s ease infinite;
 }
 
 
@@ -687,6 +764,13 @@ pre{
   background-color: turquoise;
 }
 
+#title{
+  font-size: 34px;
+  color: #839776; 
+  font-weight: 900px;
+  text-align: center;
+}
+
 
 
 /*-------------------U-------------------*/
@@ -737,4 +821,10 @@ ul{
 
 
 
-  
+
+/* Estilos opcionales para el select */
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
