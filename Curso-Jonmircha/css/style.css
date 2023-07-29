@@ -1,7 +1,9 @@
 /* a, b, c, d, e, f, g, h, i, j, k, l, m,
  n, ñ, o, p, q, r, s, t, u, v, w, x, y, z.*/
 
-
+*{
+  box-sizing: border-box;
+}
 
  @keyframes palpitar {
   0%, 100% {
@@ -375,7 +377,7 @@ img [alt="boxmodel"]{
 
 /*-------------------L-------------------*/
 #logo{
-  width: 60px;
+  width: 75px;
   height: 60px;
   padding-right: 15px;
 }
@@ -442,7 +444,7 @@ main{
 
 
 .navegators li{
-  display: inline-block;
+  display: inline;
   margin-right:10px;
   text-decoration: none;
   font-size: 17px;
@@ -521,6 +523,13 @@ pre{
   background-color: #00b3ff;
 }
 
+p{
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: 300px;
+}
+
+
 
 /*-------------------Q-------------------*/
 
@@ -590,6 +599,7 @@ pre{
   color: #839788;
   padding: 20px;
   width: 100%;
+  display: inline-block;
 }
 
 .style-footer{
@@ -687,6 +697,9 @@ pre{
   background-color: turquoise;
 }
 
+.recuadro:target{
+  background-color: #000000;
+}
 
 
 /*-------------------U-------------------*/

@@ -155,19 +155,186 @@
 
         <article id="padding" class="recuadro">
             <h2 class="text-color">Padding</h2>
+
+            <p>The padding is the property that allows adding space internally to the box that contains the element.
+                <br><br>
+                When we define the padding in a general way, a shorthand is being applied, which is the general value for the 4 sides of the box.
+            </p>
+
+            <pre>
+                <code>
+                      padding: 10px;</code>
+            </pre>
+
+            <p>When we define 2 values, the first value will always be for the vertical dimensions (top-bottom) and the second for the horizontal ones (left-right).</p>
+        
+            <pre>
+                <code>
+                    padding: 10px 20px;</code>
+            </pre>
+
+            <p>When we define 4 values, they are taken for the 4 sides chronologically clockwise. top-right-bottom-left.</p>
+        
         </article>
         <br><br>
 
-        <article id="margin">
-            
+        <article id="margin" class="recuadro margin">
+            <h2 class="text-color">Margin</h2>
+
+            <p>The margin is the external spaces around other elements.</p>
+            <p>Just like the padding and the border, the margin can also be defined in a general
+                 way and this makes a shorthand, that is, it takes a single value for the 4 sides of the box.</p>
+
+
+            <pre>
+                <code>
+                    margin: 10px;
+                </code>
+            </pre>
+
+            <p>On the other hand we can also define the shorthand in such a way that we give 
+                2 values and 4 values at the same time.</p>
+
+            <pre>
+                <code>
+                    margin: 10px 20px;
+                    margin: 10px 20px 30px 40px;
+                </code>
+            </pre>
         </article>
+
+        <hr class="divider-dos">
+        <br>
+
+        <article class="BloqueLinea recuadro">
+            <h2 class="text-color">Block Box vs Online Box</h2>
+            <p>They are elements that serve as containers for HTML elements.</p>
+
+            <h3>In block</h3> 
+            <ul>
+                <li>Occupy as wide as possible.</li><br>
+                <li>They have modifiable dimensions (height, width)</li><br>
+                <li>Don't allow other elements next to it (even if you specify a width, they still take up all available space)</li>
+            </ul>
+
+            <h3>In line</h3>
+            <ul>
+                <li>Occupy the necessary space to display its content.</li>
+                <li>They do not have modifiable dimensions (height, width).</li>
+                <li>Allow other items to your side</li>
+                <li>Padding and margin only push adjacent elements horizontally, never VERTICALLY.</li>
+            </ul>
+
+            <!-- <span class="line-box">Soy un span</span><span>Otro span</span>
+            <div class="block-box">Soy un div</div>
+        </article>
+
+
+        <span class="span">
+            <a href="">Hola</a>
+            <a href="">Hola2</a>
+            <a href="">Hola3</a>
+            <a href="">Hola4</a>
+        </span> -->
         
-    </main>
+    </article>
+    <br>
+    <article class="display recuadro" id="display">
+        <h2 class="text-color">Propertie display</h2>
+        <p>The CSS display property is used to control how an element is displayed on the web page. This property determines the behavior of an element in the normal flow of the document, <wbr>that is, how it affects the layout and the space it occupies in the flow of the page.</p>
+        
+        <article class="content">
+            <span class="line-box">Soy un span</span>
+            <div class="block-box">Soy un div</div>
+            
+            <br><br>
+            <ul>
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+                <li>item4</li>
+            </ul>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th>celda 1</th>
+                        <th>celda 2</th>
+                        <th>celda 3</th>
+                        <th>celda 4</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td>contenido 1</td>
+                        <td>contenido 2</td>
+                        <td>contenido 3</td>
+                        <td>contenido 4</td>
+                    </tr>
+                </tbody>
+    
+                <tfoot>
+                    <tr>
+                        <th colspan="4">contenido5</th>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <
+        </article>
+    
+    </article>
+
+    <br>
+    
+    <article class="recuadro">
+        <h2 class="text-color">Propertie visibility</h2>
+        <p>It is the property that allows an element to be displayed or not, by default all the elements bring it since they are always displayed (visible), but so that they are not seen, the value of hidden is <wbr> placed, it will not be seen but the space it occupies continues to be displayed .</p>
+    </article>
+    <br>
+    <article class="recuadro">
+        <h2 class="text-color">Propertie overflow</h2>
+
+        <p>It is used to control the behavior of content that exceeds 
+            the size of the container to which it belongs. 
+            That is, when the content within an HTML element is larger than the space available to it, 
+            the overflow property determines how that additional content will be handled. <br><br>
+            The overflow property can take several values:
+
+            <ol>
+                <li>visible (default): Content that overflows the container is displayed outside the container, that is, it overflows the container. It can overlap other elements if necessary.</li><br>
+                <li>hidden: All the content that overflows the container is hidden, that is, it is cut off and not shown.</li><br>
+                <li>scroll: Both horizontal and vertical scroll bars will appear, allowing the user to scroll the content to see the hidden area.</li><br>
+                <li>auto: Similar to scroll, it shows scrollbars only when necessary. If there is no overflowing content, the bars will not be displayed.</li><br>
+                <li>inherit: Inherits the value of the overflow property from the parent element.</li>
+            </ol>
+        </p>
+        <p class="overflow">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Libero odit aliquid ab eveniet cupiditate voluptas ea, expedita quas,
+            voluptatum officia fuga qui animi temporibus, modi corrupti natus dignissimos
+            rerum! Consectetur.
+        </p>
+    </article>
+    <br>
+    <nav class="recuadro buttons">
+        <h2 class="text-color">Flex and Grid</h2>
+        <button><a href="FlexBox.html">Flex</a></button>
+        <button><a href="Grid.html">Grid</a></button>
+            
+        </ul>
+    </nav>
+</main>
 
     <br><br><br>
-    <button class="bn">
-        <a href="BoxModel.html#inicioBox">Inicio</a>
-    </button>
+
+    <section>
+        <button class="bn">
+            <a href="BoxModel.html#inicioBox">Inicio</a>
+        </button>
+    </section>
+    
 
     <footer class="style-footer">
         <p>Copyright 2023 Company Name. All rights reserved.</p>
