@@ -1,0 +1,404 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.titulares {
+    background-color: #222;
+    padding: 1rem;
+    color: #EEE;
+
+}
+
+.footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-content ul {
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-content ul {
+    list-style: none;
+}
+
+.footer-content h3 {
+    font-size: 20px;
+    color: rgb(215, 154, 41);
+    ;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    flex-grow: 1;
+}
+
+
+
+.contenido {
+    min-height: 100vh;
+    background-image: url("images/1288997.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 32px;
+    font-family: 'times new roman';
+}
+
+.contenido div {
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .70);
+    text-align: center;
+}
+
+.contenido h2 {
+    font-size: 5vw;
+}
+
+.cont {
+    min-height: 90vh;
+    font-size: 3vw;
+    font-family: 'times new roman';
+    background-color: rgb(24, 13, 29);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 10px;
+}
+
+.cont .instagram-media{
+    width: 30px !important;
+    height: 690px !important;
+    
+}
+
+.cont h2{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.cont div {
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .20);
+}
+
+.cont iframe {
+    border-radius: 10px;
+}
+
+/* main h2{
+    font-family: 'Arial';
+    font-size: 5vw;
+    color: white;
+    font-weight: 700;
+
+} */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Arial';
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: black;
+
+}
+
+.header>div {
+    font-size: 32px;
+    font-family: 'Arial';
+    font-weight: 700;
+    padding: 20px;
+}
+
+.sale {
+    background-color: rgb(215, 154, 41);
+    height: auto;
+    padding: 10px;
+}
+
+
+.sale h2 {
+    font-size: 42px;
+    font-weight: 600;
+    font-family: 'arial';
+}
+
+.sale p {
+    font-family: 'arial';
+    font-size: 17px;
+}
+
+
+.flex-container .flex-items:last-of-type {
+    display: flex;
+    justify-content: center;
+}
+
+
+.sale {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pseudo {
+    width: 100%;
+    height: 70vh;
+
+}
+
+.pseudo h2 {
+    display: block;
+    position: relative;
+    width: max-content;
+    font-size: 4rem;
+    transition: all .3s ease;
+
+}
+
+.pseudo h2:hover {
+    transform: translateY(-.3rem);
+}
+
+.pseudo h2::before {
+    content: "";
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: bottom;
+    width: 100%;
+    bottom: 0;
+    box-sizing: 0;
+    transition: all .3s ease;
+    height: 5px;
+}
+
+.pseudo h2:hover::before {
+    background-color: red;
+    transform: scaleX(1);
+}
+
+.menu li{
+    margin-right: 20px;
+}
+
+.menu a {
+    display: block;
+    position: relative;
+    width: max-content;
+    font-size: 1rem;
+    transition: all .3s ease;
+}
+
+.menu a:hover {
+    transform: translateX(-.8rem);
+   
+}
+
+.menu a::before {
+    content: "";
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    width: 100%;
+    bottom: 0;
+    box-sizing: 0;
+    transition: all .8s ease;
+    height: 3px;
+
+}
+
+.menu a:hover::before {
+    background-color: rgb(215, 154, 41);
+    transform: scaleX(1);
+}
+
+.menu a{
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+
+@media screen and (min-width:800px) {
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        height: 30vh;
+        justify-content: space-around;
+    }
+
+    .header>div {
+        padding: 0;
+    }
+
+    .menu ul {
+        display: flex;
+    }
+
+    .menu li {
+        padding: 10px;
+    }
+
+    .flex-container {
+        display: flex;
+    }
+
+    .flex-items {
+        flex-basis: 50%;
+
+    }
+    
+
+    .cont div {
+        min-height: inherit;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    /* .flex-order-1{
+        order: 1;
+        border: 3px solid;
+    } */
+
+    .row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .flex-container p {
+        font-size: 20px;
+    }
+
+    .sale .flex-container:first-of-type .flex-items:last-of-type {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40vh;
+    }
+
+    .sale .flex-container:last-of-type .flex-items:last-of-type {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40vh;
+    }
+
+    .sale {
+        height: 140vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+
+
+    .contact-cont {
+        height: 30vh;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .footer-content ul {
+        margin-right: 10px;
+    }
+
+
+    .menu a {
+        display: block;
+        position: relative;
+        width: max-content;
+        font-size: 1rem;
+        transition: all .3s ease;
+    }
+
+    .menu a:hover {
+        transform: translateY(-.3rem);
+        transform: scale(1.2);
+    }
+
+    .menu a::before {
+        content: "";
+        position: absolute;
+        transform: scaleX(0);
+        transform-origin: right;
+        width: 100%;
+        bottom: 0;
+        box-sizing: 0;
+        transition: all .8s ease;
+        height: 3px;
+
+    }
+
+    .menu a:hover::before {
+        background-color: rgb(215, 154, 41);
+        transform: scaleX(1);
+    }
+
+
+}

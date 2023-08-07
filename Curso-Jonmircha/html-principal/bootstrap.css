@@ -1,0 +1,45 @@
+
+*, *::after,*::before{
+    box-sizing: border-box;
+}
+
+.head{
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    width: 80%;
+    justify-content: flex-start;
+}
+
+.navbar ul{
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+}
+
+.navbar li{
+    margin-right: 20px;
+}
+
+.sidebar{
+    background-color: aquamarine;
+    float: left;
+    height: 80vh;
+    width: 14vw;
+}
+
+.footer{
+    background-color: #666;
+    height: 18vh;
+    width: 100%;
+}
+
+
+.content{
+    height: 70vh;
+    flex-grow: 1;
+}

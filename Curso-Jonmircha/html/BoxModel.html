@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="css/StyleBox.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png">
+
+</head>
+<body>
+
+    <header class="start" id="inicioBox">
+        
+        <a class="link-inicio" href="pagIndex.html">
+            <article class="encabezado">
+                <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="CSS">
+                <h1>Learning CSS</h1> 
+            </article>
+            
+            <nav  class="navegators">
+                <ul class="style-navegators">
+                    
+                    <li><a href="BoxModel.html#WhatIs">What is</a></li>
+                    <li><a href="BoxModel.html#functioning">Functioning</a></li>
+                    <li>
+                        <select id="opciones" onchange="location = this.value">
+                            <option value="">Seleccione...</option>
+                            <option value="BoxModel.html#border">border</option>
+                            <option value="BoxModel.html#padding">padding</option>
+                            <option value="BoxModel.html#margin">margin</option>
+                          </select>
+                    </li>                
+                    <li><a href="FlexGrid.html">More information</a></li>
+                </ul>
+            </nav>
+        </a>
+        
+    </header>
+    <main>     
+        <h2 id="title">BOX MODEL</h2>
+        
+        <article class="recuadro" id="WhatIs">
+            <h2 class="text-color">¿WHAT IS?</h2>
+            <p>The box model is a way of representing the elements of a web page in terms of boxes. 
+                It is used to define the size, position, and appearance of elements on a web page. 
+                The box model consists of four parts: the content, the padding, the border, and the margin.
+
+                The content is the actual text or image that is displayed inside the element. 
+                The padding is the space between the content and the border. 
+                The border is the line that surrounds the element. 
+                The margin is the space between the element and other elements on the page.
+            
+                The box model is used to control the layout of elements on a web page. 
+                By changing the size, position, and appearance of the boxes, 
+                you can create different layouts for your web pages.</p>
+        </article>
+
+        <br><br>
+
+        <article class="recuadro functioning" id="functioning">
+            <h2 class="text-color">FUNCTIONING</h2>
+            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/CSS-Box-Model.png" alt="boxmodel">
+            <p>The browser's default styles are placed like this:</p>
+            <img src="css/Screenshot 2023-07-24 112313.png" alt="Style user agent">
+
+            <p>The box model has some elements:</p>
+
+            <details class="box-elements">
+                <summary>Content</summary>
+                <p>Content is the information that is being presented to the user. It includes text, images, videos, and other multimedia content.</p>
+                <img src="css/images/WhatsApp Image 2023-07-24 at 12.33.49 PM.jpeg" alt="Content">
+            </details>
+
+            <br>
+            <details class="box-elements">
+                <summary>Padding</summary>
+                <p>They are the internal distances (Distance from edge to content)</p>
+                <img src="css/images/WhatsApp Image 2023-07-24 at 12.33.50 PM.jpeg" alt="Padding">
+            </details>
+
+            <br>
+
+            <details class="box-elements">
+                <summary>Border</summary>
+                <p>What delimits each of the HTML elements</p>
+                <img src="css/images/WhatsApp Image 2023-07-24 at 12.33.50 PM (1).jpeg" alt="Border">
+            </details>
+
+            <br>
+
+            <details class="box-elements">
+                <summary>Margin</summary>
+                <p>External Distances (The distance between the HTML element and its sibling or parent elements)</p>
+                <img src="css/images/WhatsApp Image 2023-07-24 at 12.33.50 PM (2).jpeg" alt="Margin">
+                <figure></figure>
+            </details>
+
+            <p>Within the box model, it must be considered that a box will have 4 sides:
+
+                <ul>
+                    <li>Top</li>
+                    <li>Right</li>
+                    <li>Bottom</li>
+                    <li>Left</li>
+                </ul>
+            </p>
+        </article>
+        <br><br>
+        <article class="border recuadro" id="border">
+            <h2 class="text-color">Border</h2>
+            <p>Within the box model, it must be considered that a box will have 4 sides:</p>
+            <ul>
+                <li>Top</li>
+                <li>Right</li>
+                <li>Bottom</li>
+                <li>Left</li>
+            </ul>
+            <p> Refers to a property that allows you to add a border around an HTML element. The border is a line that surrounds the content of the element and is used to visually highlight or separate the element from the rest of the content on the page.
+                <br><br>
+                The border consists of 3 main properties that make it up.
+            </p>
+
+            <ul class="border-properties">
+                <li>Border-color: Allows you to add color to the border.</li>
+                <li>Border-width: Allows you to vary the thickness of the border.</li>
+                <li>Border-style: Allows you to give a style to the line.</li>
+            </ul>
+
+            <p>Although for best practice we make these properties into a single property called border.                <br><br>
+                Example:
+                <br><br>
+                The structure is like this: border: width style color;</p>
+                <pre>
+                    <code>border: 10px double gold;</code>
+                </pre>
+
+            <p>The differents border styles are:</p>
+            <ul>
+                <li>Solid</li>
+                <li>Dashed</li>
+                <li>Dotted</li>
+                <li>Double</li>
+                <li>Groove</li>
+                <li>Ridge</li>
+                <li>Inset</li>
+                <li>Outset</li>
+            </ul>
+
+            <h2 class="border-example">BORDER</h2>
+
+        </article>
+
+        <br><br>
+
+        <article id="padding" class="recuadro">
+            <h2 class="text-color">Padding</h2>
+
+            <p>The padding is the property that allows adding space internally to the box that contains the element.
+                <br><br>
+                When we define the padding in a general way, a shorthand is being applied, which is the general value for the 4 sides of the box.
+            </p>
+
+            <pre>
+                <code>
+                      padding: 10px;</code>
+            </pre>
+
+            <p>When we define 2 values, the first value will always be for the vertical dimensions (top-bottom) and the second for the horizontal ones (left-right).</p>
+        
+            <pre>
+                <code>
+                    padding: 10px 20px;</code>
+            </pre>
+
+            <p>When we define 4 values, they are taken for the 4 sides chronologically clockwise. top-right-bottom-left.</p>
+        
+        </article>
+        <br><br>
+
+        <article id="margin" class="recuadro margin">
+            <h2 class="text-color">Margin</h2>
+
+            <p>The margin is the external spaces around other elements.</p>
+            <p>Just like the padding and the border, the margin can also be defined in a general
+                 way and this makes a shorthand, that is, it takes a single value for the 4 sides of the box.</p>
+
+
+            <pre>
+                <code>
+                    margin: 10px;
+                </code>
+            </pre>
+
+            <p>On the other hand we can also define the shorthand in such a way that we give 
+                2 values and 4 values at the same time.</p>
+
+            <pre>
+                <code>
+                    margin: 10px 20px;
+                    margin: 10px 20px 30px 40px;
+                </code>
+            </pre>
+        </article>
+
+        <hr class="divider-dos">
+        <br>
+
+        <article class="BloqueLinea recuadro">
+            <h2 class="text-color">Block Box vs Online Box</h2>
+            <p>They are elements that serve as containers for HTML elements.</p>
+
+            <h3>In block</h3> 
+            <ul>
+                <li>Occupy as wide as possible.</li><br>
+                <li>They have modifiable dimensions (height, width)</li><br>
+                <li>Don't allow other elements next to it (even if you specify a width, they still take up all available space)</li>
+            </ul>
+
+            <h3>In line</h3>
+            <ul>
+                <li>Occupy the necessary space to display its content.</li>
+                <li>They do not have modifiable dimensions (height, width).</li>
+                <li>Allow other items to your side</li>
+                <li>Padding and margin only push adjacent elements horizontally, never VERTICALLY.</li>
+            </ul>
+
+            <!-- <span class="line-box">Soy un span</span><span>Otro span</span>
+            <div class="block-box">Soy un div</div>
+        </article>
+
+
+        <span class="span">
+            <a href="">Hola</a>
+            <a href="">Hola2</a>
+            <a href="">Hola3</a>
+            <a href="">Hola4</a>
+        </span> -->
+        
+    </article>
+    <br>
+    <article class="display recuadro" id="display">
+        <h2 class="text-color">Propertie display</h2>
+        <p>The CSS display property is used to control how an element is displayed on the web page. This property determines the behavior of an element in the normal flow of the document, <wbr>that is, how it affects the layout and the space it occupies in the flow of the page.</p>
+        
+        <article class="content">
+            <span class="line-box">Soy un span</span>
+            <div class="block-box">Soy un div</div>
+            
+            <br><br>
+            <ul>
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+                <li>item4</li>
+            </ul>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th>celda 1</th>
+                        <th>celda 2</th>
+                        <th>celda 3</th>
+                        <th>celda 4</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td>contenido 1</td>
+                        <td>contenido 2</td>
+                        <td>contenido 3</td>
+                        <td>contenido 4</td>
+                    </tr>
+                </tbody>
+    
+                <tfoot>
+                    <tr>
+                        <th colspan="4">contenido5</th>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <
+        </article>
+    
+    </article>
+
+    <br>
+    
+    <article class="recuadro">
+        <h2 class="text-color">Propertie visibility</h2>
+        <p>It is the property that allows an element to be displayed or not, by default all the elements bring it since they are always displayed (visible), but so that they are not seen, the value of hidden is <wbr> placed, it will not be seen but the space it occupies continues to be displayed .</p>
+    </article>
+    <br>
+    <article class="recuadro">
+        <h2 class="text-color">Propertie overflow</h2>
+
+        <p>It is used to control the behavior of content that exceeds 
+            the size of the container to which it belongs. 
+            That is, when the content within an HTML element is larger than the space available to it, 
+            the overflow property determines how that additional content will be handled. <br><br>
+            The overflow property can take several values:
+
+            <ol>
+                <li>visible (default): Content that overflows the container is displayed outside the container, that is, it overflows the container. It can overlap other elements if necessary.</li><br>
+                <li>hidden: All the content that overflows the container is hidden, that is, it is cut off and not shown.</li><br>
+                <li>scroll: Both horizontal and vertical scroll bars will appear, allowing the user to scroll the content to see the hidden area.</li><br>
+                <li>auto: Similar to scroll, it shows scrollbars only when necessary. If there is no overflowing content, the bars will not be displayed.</li><br>
+                <li>inherit: Inherits the value of the overflow property from the parent element.</li>
+            </ol>
+        </p>
+        <p class="overflow">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Libero odit aliquid ab eveniet cupiditate voluptas ea, expedita quas,
+            voluptatum officia fuga qui animi temporibus, modi corrupti natus dignissimos
+            rerum! Consectetur.
+        </p>
+    </article>
+    <br>
+    <nav class="recuadro buttons">
+        <h2 class="text-color">Flex and Grid</h2>
+        <button><a href="FlexBox.html">Flex</a></button>
+        <button><a href="Grid.html">Grid</a></button>
+            
+        </ul>
+    </nav>
+</main>
+
+    <br><br><br>
+
+    <section>
+        <button class="bn">
+            <a href="BoxModel.html#inicioBox">Inicio</a>
+        </button>
+    </section>
+    
+
+    <footer class="style-footer">
+        <p>Copyright 2023 Company Name. All rights reserved.</p>
+        <p>Contact us at <a href="mailto:info@companyname.com">info@companyname.com</a> or call us at 1-800-555-1212.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
