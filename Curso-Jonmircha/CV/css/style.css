@@ -1018,23 +1018,3 @@ html{
 
 */
 
-
-@media screen and (min-width:580px) {
-    nav{
-        display: none;
-    }
-
-    .responsive-nav{
-        display: block;
-    }
-
-    body{
-        width: fit-content;
-    }
-}
-
-@media screen and (max-width:700px) {
-    .my-information .content-information .row{
-        display: block;
-    }
-}
