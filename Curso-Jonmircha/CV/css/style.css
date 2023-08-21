@@ -34,6 +34,20 @@
     padding: 20px 0;
 }
 
+.Briefcase span{
+    display: flex;
+    flex-direction: column;
+}
+.Briefcase a{
+    color: #1CB698;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
 .Briefcase .Briefcase-content {
     display: flex;
     flex-wrap: wrap;
@@ -920,6 +934,16 @@ html{
 .skills .skill .com{
     width: 0%;
     animation: 2s com forwards;
+}
+
+@keyframes py{
+    0%{width: 0;}
+    100%{width: 30%;}
+}
+
+.skills .skill .py{
+    width: 0%;
+    animation: 2s py forwards;
 }
 
 @keyframes com{
