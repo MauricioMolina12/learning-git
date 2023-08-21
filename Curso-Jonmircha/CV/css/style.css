@@ -22,7 +22,7 @@
 .Briefcase {
     background-color: #252A2E;
     width: 100%;
-    height: 170vh;
+    height: 240vh;
     padding-top: 45px;
 }
 
@@ -987,6 +987,16 @@ html{
 @keyframes emp{
     0%{width: 0;}
     100%{width: 91%;}
+}
+
+.skills .skill .pow{
+    width: 0%;
+    animation: 2s pow forwards;
+}
+
+@keyframes pow{
+    0%{width: 0;}
+    100%{width: 40%;}
 }
 
 
