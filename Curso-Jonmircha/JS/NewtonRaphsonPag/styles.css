@@ -1,0 +1,42 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+input {
+    height: 27px;
+    width: 180px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+
+.item{
+    margin-top: 20px;
+}

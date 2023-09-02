@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Raíces</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Raíces</h1>
+    </header>
+    <main>
+        <div class="input-container">
+            <div class="item">
+                <label for="grado">Grado</label>
+                <input type="number" id="grado">
+            </div>
+            <div class="item">
+                <label for="c1">Coeficiente #1</label>
+                <input type="number" class="coeficiente">
+            </div>
+            <div class="item">
+                <label for="c2">Coeficiente #2</label>
+                <input type="number" class="coeficiente">
+            </div>
+            <div class="item">
+                <label for="c3">Coeficiente #3</label>
+                <input type="number" class="coeficiente">
+            </div>
+            <div class="item">
+                <label for="c4">Coeficiente #4</label>
+                <input type="number" class="coeficiente">
+            </div>
+            <div class="item">
+                <label for="xo">Xo</label>
+                <input type="number" id="xo">
+            </div>
+            <div class="item">
+                <label for="to">Tolerancia</label>
+                <input type="number" id="to">
+            </div>
+            <div class="item">
+                <label for="nm">Número máximo de iteraciones</label>
+                <input type="number" id="nm">
+            </div>
+            
+            <button id="calcular">Calcular</button>
+            
+            <div class="item">
+                <label for="resultado">Resultado</label>
+                <input type="text" id="resultado" readonly disabled>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
