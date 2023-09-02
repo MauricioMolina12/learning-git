@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+.bg-custom {
+    background-color: #700f0f; /* Color amarillo */
+}
+
+.header{
+    background-color: #702CF5;
+}
+
+.custom-font{
+    font-family: 'Righteous';
+}
+
+.p-font{
+    font-family: 'Courier New';
+}
+
+.border-black{
+    border: 10px solid black;
+}
+
+.max{
+    max-width: 520px;
+}
+
+.color-boot{
+    color: #702CF5;
+}
+
+.size{
+    width: 270px;
+    height: 180px;
+}
+
+.img{
+    width: 150px;
+    height: 120px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-container{
+    display: flex;
+    flex-basis: 50%;
+}
+
+.flex-items{
+    display: flex;
+    align-items: center;
+}
+.container .flex-container:first-of-type .flex-items:first-of-type{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container{
+    margin-top: 70px;
+}
+
+.container .flex-container:first-of-type .flex-items:first-of-type h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.container .flex-container:first-of-type .flex-items:first-of-type .par{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.flex-container:last-child{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bgo{
+    height: 100vh;
+    background-image: url("https://blog.templatetoaster.com/wp-content/uploads/2019/09/What-is-Bootstrap-Facebook.png");
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.mg-0{
+    margin: 0;
+}
+
+/* @media screen and (min-width:800px){
+
+    .flex-container{
+        display: flex;
+    }
+
+    .flex-items{
+        flex-basis: 50%;
+    }
+    
+    .flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+} */
+
+@media screen and (max-width:533px){
+
+ .container .flex-container{
+    display:flex;
+    flex-direction: column;
+ }  
+
+ .bgo{
+    background-size: contain;
+ }
+
+ .definition{
+    margin-top: 0;
+ }
+}
+
+

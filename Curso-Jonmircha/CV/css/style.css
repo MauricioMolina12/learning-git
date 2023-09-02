@@ -26,6 +26,13 @@
     padding-top: 45px;
 }
 
+.Briefcase-content:first-child{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: 3,auto;
+}
+
+
 .Briefcase > h2 {
     font-family: 'Righteous';
     font-size: 6vw;
@@ -56,6 +63,9 @@
     margin: auto;
 }
 
+.cal,img{
+    width: 100vw;
+}
 .Briefcase .Briefcase-content .img {
     width: 490px;
     height: 300px;
@@ -64,6 +74,7 @@
     overflow: hidden;
     border-radius: 12px;
 }
+
 
 .Briefcase .Briefcase-content .img img {
     width: 100%;
