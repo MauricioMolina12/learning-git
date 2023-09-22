@@ -1,6 +1,5 @@
-document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('calcular').addEventListener('click', function () {
-        var grado = parseInt(document.getElementById('grado').value);
+
+        var grado = parseInt(prompt("Digite grado: "));
         var F = [];
 
         var coeficientes = document.querySelectorAll('.coeficiente');
@@ -38,8 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             resultadoInput.value = "No se encontró una raíz en " + NumMax + " iteraciones.";
         }
-    });
-});
+
 
 function Evaluar(f, x) {
     let fx = 0;

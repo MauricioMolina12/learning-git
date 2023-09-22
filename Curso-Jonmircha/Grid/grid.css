@@ -44,3 +44,72 @@ grid-template-areas:
   }
 
   
+.item {
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #666;
+  border: medium solid #999;
+}
+
+
+.grid{
+  display: grid;
+  gap: 1vw;
+  grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+}
+
+.calculadora-container{
+  display: grid; 
+  padding: 20px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+}
+
+.calculadora{
+  background-color: #666;
+  height: 80vh;
+  width: 20rem;
+  border-radius: 5px;
+  display: grid;
+  align-content: space-evenly;
+  padding: 0 15px;
+}
+
+.input{
+  display: grid;
+  justify-content: center;
+}
+
+input{
+  height: 60px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: .3vw;
+  
+}
+
+.btn{
+  width: 60px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:nth-child(17){
+  grid-column: span 2;
+  width: 100%;
+}
+
+.btn:nth-child(16){
+  grid-row: span 2;
+  height: 100%;
+}
+.medida{
+  width: auto;
+}

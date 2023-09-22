@@ -155,7 +155,7 @@ img {
 .sale {
     background-color: rgb(215, 154, 41);
     height: auto;
-    padding: 10px;
+    padding: 20px;
 }
 
 
@@ -175,6 +175,7 @@ img {
     display: flex;
     justify-content: center;
 }
+
 
 
 .sale {
@@ -322,19 +323,13 @@ img {
         font-size: 20px;
     }
 
-    .sale .flex-container:first-of-type .flex-items:last-of-type {
+    .sale .flex-container:first-of-type .flex-items:last-of-type,.sale .flex-container:last-of-type .flex-items:last-of-type {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 40vh;
     }
 
-    .sale .flex-container:last-of-type .flex-items:last-of-type {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 40vh;
-    }
 
     .sale {
         height: 140vh;
