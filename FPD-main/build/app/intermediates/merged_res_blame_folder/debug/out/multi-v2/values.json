@@ -129,23 +129,6 @@
                     }
                 },
                 {
-                    "source": "/home/blaskevors/Desktop/MapsF/FPD-main/build/app/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,198,279,383,491,611,706",
-                        "endColumns": "142,80,103,107,119,94,71",
-                        "endOffsets": "193,274,378,486,606,701,773"
-                    },
-                    "to": {
-                        "startLines": "456,470,474,475,476,477,479",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "30766,31989,32366,32470,32578,32698,32853",
-                        "endColumns": "142,80,103,107,119,94,71",
-                        "endOffsets": "30904,32065,32465,32573,32693,32788,32920"
-                    }
-                },
-                {
                     "source": "/home/blaskevors/.gradle/caches/transforms-3/aa03f64e5c962c7574819687557e9f83/transformed/coordinatorlayout-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
@@ -165,20 +148,22 @@
                     }
                 },
                 {
-                    "source": "/home/blaskevors/Desktop/MapsF/FPD-main/android/app/src/main/res/values/strings.xml",
+                    "source": "/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "2,4,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,186,115",
-                        "endColumns": "59,82,70",
-                        "endOffsets": "110,264,181"
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
                     },
                     "to": {
-                        "startLines": "457,458,462",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "30909,30969,31267",
-                        "endColumns": "59,82,70",
-                        "endOffsets": "30964,31047,31333"
+                        "startLines": "1572,1634",
+                        "startColumns": "4,4",
+                        "startOffsets": "102056,104740",
+                        "endLines": "1575,1636",
+                        "endColumns": "12,12",
+                        "endOffsets": "102232,104904"
                     }
                 },
                 {
@@ -198,25 +183,6 @@
                         "endLines": "5,7,10,14,33,65,263,453,455,463,464,465,466,467,468,469,471,472,473",
                         "endColumns": "19,19,19,19,19,55,52,75,59,88,98,107,96,87,99,69,96,109,88",
                         "endOffsets": "284,367,478,613,1194,3105,16783,30633,30761,31422,31521,31629,31726,31814,31914,31984,32162,32272,32361"
-                    }
-                },
-                {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/959df2157db3b9698e350d4a6ab5efe3/transformed/jetified-play-services-base-18.0.1/res/values/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,33,46",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "215,301,377,463,549,625,702,778,951,1052,1233,1354,1457,1637,1756,1868,1967,2155,2256,2437,2558,2733,2877,2936,2994,3164,3475",
-                        "endLines": "4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,45,64",
-                        "endColumns": "85,75,85,85,75,76,75,75,100,180,120,102,179,118,111,98,187,100,180,120,174,143,58,57,74,20,20",
-                        "endOffsets": "300,376,462,548,624,701,777,853,1051,1232,1353,1456,1636,1755,1867,1966,2154,2255,2436,2557,2732,2876,2935,2993,3068,3474,3887"
-                    },
-                    "to": {
-                        "startLines": "100,101,102,103,104,105,106,107,435,436,437,438,439,440,441,442,444,445,446,447,448,449,450,451,452,3090,3382",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5547,5637,5717,5807,5897,5977,6058,6138,28229,28334,28515,28640,28747,28927,29050,29166,29436,29624,29729,29910,30035,30210,30358,30421,30483,175726,184489",
-                        "endLines": "100,101,102,103,104,105,106,107,435,436,437,438,439,440,441,442,444,445,446,447,448,449,450,451,452,3102,3400",
-                        "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
-                        "endOffsets": "5632,5712,5802,5892,5972,6053,6133,6213,28329,28510,28635,28742,28922,29045,29161,29264,29619,29724,29905,30030,30205,30353,30416,30478,30557,176036,184901"
                     }
                 },
                 {
@@ -273,39 +239,39 @@
                     }
                 },
                 {
-                    "source": "/home/blaskevors/Desktop/MapsF/FPD-main/android/app/src/main/res/values/color.xml",
+                    "source": "/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endColumns": "41",
-                        "endOffsets": "91"
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,186,115",
+                        "endColumns": "59,82,70",
+                        "endOffsets": "110,264,181"
                     },
                     "to": {
-                        "startLines": "134",
-                        "startColumns": "4",
-                        "startOffsets": "7836",
-                        "endColumns": "41",
-                        "endOffsets": "7873"
+                        "startLines": "457,458,462",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "30909,30969,31267",
+                        "endColumns": "59,82,70",
+                        "endOffsets": "30964,31047,31333"
                     }
                 },
                 {
-                    "source": "/home/blaskevors/Desktop/MapsF/FPD-main/build/local_auth_android/intermediates/packaged_res/debug/values/values.xml",
+                    "source": "/home/blaskevors/.gradle/caches/transforms-3/a8b8b21d5e94a6fc88fb1ca64074115a/transformed/jetified-play-services-base-18.1.0/res/values/values.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,100,144,190,238",
-                        "endLines": "2,3,4,5,11",
-                        "endColumns": "44,43,45,47,10",
-                        "endOffsets": "95,139,185,233,533"
+                        "startLines": "4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,33,46",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "215,301,377,463,549,625,702,778,951,1052,1233,1354,1457,1637,1756,1868,1967,2155,2256,2437,2558,2733,2877,2936,2994,3164,3475",
+                        "endLines": "4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,45,64",
+                        "endColumns": "85,75,85,85,75,76,75,75,100,180,120,102,179,118,111,98,187,100,180,120,174,143,58,57,74,20,20",
+                        "endOffsets": "300,376,462,548,624,701,777,853,1051,1232,1353,1456,1636,1755,1867,1966,2154,2255,2436,2557,2732,2876,2935,2993,3068,3474,3887"
                     },
                     "to": {
-                        "startLines": "66,116,271,272,484",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "3110,6764,17399,17445,33217",
-                        "endLines": "66,116,271,272,489",
-                        "endColumns": "44,43,45,47,10",
-                        "endOffsets": "3150,6803,17440,17488,33512"
+                        "startLines": "100,101,102,103,104,105,106,107,435,436,437,438,439,440,441,442,444,445,446,447,448,449,450,451,452,3090,3382",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5547,5637,5717,5807,5897,5977,6058,6138,28229,28334,28515,28640,28747,28927,29050,29166,29436,29624,29729,29910,30035,30210,30358,30421,30483,175726,184489",
+                        "endLines": "100,101,102,103,104,105,106,107,435,436,437,438,439,440,441,442,444,445,446,447,448,449,450,451,452,3102,3400",
+                        "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
+                        "endOffsets": "5632,5712,5802,5892,5972,6053,6133,6213,28329,28510,28635,28742,28922,29045,29161,29264,29619,29724,29905,30030,30205,30353,30416,30478,30557,176036,184901"
                     }
                 },
                 {
@@ -325,6 +291,42 @@
                         "endLines": "2265,2271,2281,3456,3460",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "146475,146653,146937,186655,186782"
+                    }
+                },
+                {
+                    "source": "/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/app/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,198,279,383,491,611,706",
+                        "endColumns": "142,80,103,107,119,94,71",
+                        "endOffsets": "193,274,378,486,606,701,773"
+                    },
+                    "to": {
+                        "startLines": "456,470,474,475,476,477,479",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "30766,31989,32366,32470,32578,32698,32853",
+                        "endColumns": "142,80,103,107,119,94,71",
+                        "endOffsets": "30904,32065,32465,32573,32693,32788,32920"
+                    }
+                },
+                {
+                    "source": "/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/intermediates/packaged_res/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,100,144,190,238",
+                        "endLines": "2,3,4,5,11",
+                        "endColumns": "44,43,45,47,10",
+                        "endOffsets": "95,139,185,233,533"
+                    },
+                    "to": {
+                        "startLines": "66,116,271,272,484",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "3110,6764,17399,17445,33217",
+                        "endLines": "66,116,271,272,489",
+                        "endColumns": "44,43,45,47,10",
+                        "endOffsets": "3150,6803,17440,17488,33512"
                     }
                 },
                 {
@@ -419,6 +421,23 @@
                     }
                 },
                 {
+                    "source": "/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/res/values/color.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endColumns": "41",
+                        "endOffsets": "91"
+                    },
+                    "to": {
+                        "startLines": "134",
+                        "startColumns": "4",
+                        "startOffsets": "7836",
+                        "endColumns": "41",
+                        "endOffsets": "7873"
+                    }
+                },
+                {
                     "source": "/home/blaskevors/.gradle/caches/transforms-3/7f51fb07831536b28ca5194da446da04/transformed/jetified-window-1.0.0-beta04/res/values/values.xml",
                     "from": {
                         "startLines": "2,7,8,9,10,11,19,23,34,51",
@@ -435,25 +454,6 @@
                         "endLines": "44,45,46,47,339,2235,2239,3420,3432,3440",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
                         "endOffsets": "1695,1755,1807,1852,21519,145402,145533,185495,185935,186244"
-                    }
-                },
-                {
-                    "source": "/home/blaskevors/Desktop/MapsF/FPD-main/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "1572,1634",
-                        "startColumns": "4,4",
-                        "startOffsets": "102056,104740",
-                        "endLines": "1575,1636",
-                        "endColumns": "12,12",
-                        "endOffsets": "102232,104904"
                     }
                 },
                 {

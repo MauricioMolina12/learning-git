@@ -1,3 +1,4 @@
+import 'package:appsemillero/Screens/homepage.dart';
 import 'package:appsemillero/Screens/login.dart';
 import 'package:appsemillero/Screens/register.dart';
 import 'package:appsemillero/Screens/updatedata.dart';
@@ -130,6 +131,34 @@ class MyHomePage extends StatelessWidget {
                 );
               },
               child: Text('UPDATE',
+                  style: TextStyle(
+                      fontSize: 30,
+                      fontFamily: 'Jost',
+                      fontWeight: FontWeight.w100)), // Texto del botón
+            ),
+          ),
+          Container(
+            margin: EdgeInsets.only(top: 20),
+            height: 80,
+            width: 180,
+            child: ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Color(0xff366637),
+                elevation: 4.0, // Establece la elevación del botón
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(
+                      20.0), // Establece el radio de las esquinas del botón
+                ),
+              ),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (contxt) =>
+                          homepage()), // Nombre de la siguiente ruta
+                );
+              },
+              child: Text('MAPA',
                   style: TextStyle(
                       fontSize: 30,
                       fontFamily: 'Jost',
