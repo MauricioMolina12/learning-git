@@ -53,6 +53,7 @@ class _logscreenState extends State<logscreen> {
     return Scaffold(
       backgroundColor: Color(0xffffffff),
       body: SingleChildScrollView(
+        physics: NeverScrollableScrollPhysics(),
         child: Column(
           children: [
             Container(
@@ -213,6 +214,7 @@ class _logscreenState extends State<logscreen> {
               ),
             ),
             Container(
+              margin: EdgeInsets.only(top: 20),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -222,22 +224,21 @@ class _logscreenState extends State<logscreen> {
                     },
                     icon: Image.asset("assets/fblogo.png",
                         width: 50, height: 100),
+                    iconSize: 50,
                   ),
                   SizedBox(
-                    width: 40,
+                    width: 30,
                   ),
                   IconButton(
                     onPressed: () async {
                       await signInWithGoogle();
                     },
                     icon: Image.asset("assets/gmaillogo.png", width: 50),
+                    iconSize: 50,
                   ),
                 ],
               ),
-              padding: EdgeInsets.only(
-                left: 100,
-                right: 100,
-              ),
+
               alignment: Alignment.bottomCenter,
             )
           ],
