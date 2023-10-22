@@ -244,12 +244,12 @@ class _UpdateDataState extends State<UpdateData> {
                             child: Text('Subir foto'),
                           ),
                           SizedBox(
-                            height: 30,
+                            height: 15,
                           ),
                           Container(
                             alignment: Alignment.bottomCenter,
                             padding: const EdgeInsets.only(
-                                top: 10, right: 30, bottom: 25, left: 30),
+                                top: 0, right: 30, bottom: 20, left: 30),
                             width: double.infinity,
                             decoration: const BoxDecoration(
                               color: Colors.white,
@@ -360,7 +360,7 @@ class _UpdateDataState extends State<UpdateData> {
                                           ),
                                         ),
                                         const SizedBox(
-                                          height: 30,
+                                          height: 25,
                                         ),
                                         Row(
                                           mainAxisAlignment:

@@ -32,6 +32,10 @@ class _homepageSFState extends State<homepageSF> {
   LatLng? myPosition;
   double lat = 0;
   double lon = 0;
+
+  
+
+
   Future<Position> determinePosition() async {
     LocationPermission permission;
     permission = await Geolocator.checkPermission();
@@ -68,7 +72,7 @@ class _homepageSFState extends State<homepageSF> {
             children: [
               myPosition == null? CircularProgressIndicator() : FlutterMap(
                   options: MapOptions(
-                      center: myPosition, minZoom: 5, maxZoom: 25, zoom: 18),
+                      center: myPosition, maxZoom: 100, zoom: 18),
                   nonRotatedChildren: [
                     TileLayer(
                       urlTemplate:

@@ -1,6 +1,6 @@
 // This is a generated file; do not edit or check into version control.
 FLUTTER_ROOT=/home/blaskevors/development/flutter
-FLUTTER_APPLICATION_PATH=/home/blaskevors/Desktop/MapsF/FPD-main
+FLUTTER_APPLICATION_PATH=/home/blaskevors/Desktop/colaboration/learning-git/FPD-main
 COCOAPODS_PARALLEL_CODE_SIGN=true
 FLUTTER_TARGET=lib/main.dart
 FLUTTER_BUILD_DIR=build
