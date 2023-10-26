@@ -1,5 +1,4 @@
-
-import 'package:appsemillero/Screens/home_page.dart';
+import 'package:appsemillero/Screens/homepage.dart';
 import 'package:appsemillero/Screens/login.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
@@ -185,10 +184,12 @@ class _UpdateDataState extends State<UpdateData> {
                             ),
                             onPressed: () {
                               //Codigo para pasar de pantallas
-                              Navigator.of(context).push(
-                                  MaterialPageRoute<Null>(builder: (BuildContext context) {
-                                    return new MyApp();
-                                  }));
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (contxt) =>
+                                        homepage()), // Nombre de la siguiente ruta
+                              );
                             },
                           ),
                         ),
@@ -335,6 +336,7 @@ class _UpdateDataState extends State<UpdateData> {
                                             ),
                                             const SizedBox(height: 7),
                                             TextField(
+                                              enabled: false,
                                               controller: _textController3,
                                               decoration: const InputDecoration(
                                                   labelText: "Usuario",
@@ -353,6 +355,7 @@ class _UpdateDataState extends State<UpdateData> {
                                             ),
                                             const SizedBox(height: 7),
                                             TextField(
+                                              enabled: false,
                                               onChanged: validateEmail,
                                               controller: _emailController,
                                               decoration: InputDecoration(
@@ -371,24 +374,32 @@ class _UpdateDataState extends State<UpdateData> {
                                             Row(
                                               mainAxisAlignment:
                                               MainAxisAlignment.center,
+
                                               children: [
-                                                ElevatedButton(
-                                                  onPressed: () {},
-                                                  child: Text('Actualizar',
-                                                      style: TextStyle(fontSize: 18)),
-                                                  style: ButtonStyle(
-                                                    minimumSize:
-                                                    MaterialStateProperty.all(
-                                                        Size(140, 60)),
-                                                    shape: MaterialStateProperty.all<
-                                                        RoundedRectangleBorder>(
-                                                      RoundedRectangleBorder(
-                                                        borderRadius: BorderRadius.circular(
-                                                            20), // Ajusta el radio según tus preferencias
-                                                      ),
+                                                Container(
+                                                  child:
+                                                  ElevatedButton(
+
+                                                    onPressed: () {},
+                                                    child: Text('Actualizar',
+                                                        style: TextStyle(fontSize: 18)),
+
+                                                    style: ElevatedButton.styleFrom(
+                                                      backgroundColor: Color(0xff448493),
+
+                                                      elevation: 0,
+                                                      textStyle: TextStyle(
+                                                          color: Color(0xffffffff),
+                                                          fontFamily: 'mmedium',
+                                                          fontSize: 15),
+                                                      shape: RoundedRectangleBorder(
+                                                          borderRadius: BorderRadius.circular(15)),
+                                                      padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                                                     ),
+
                                                   ),
                                                 ),
+
                                               ],
                                             ),
                                           ])),
